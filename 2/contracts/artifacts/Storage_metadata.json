@@ -1,0 +1,176 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "intValue",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "stringValue",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addressValue",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "boolValue",
+						"type": "bool"
+					}
+				],
+				"name": "StructAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					}
+				],
+				"name": "StructRemoved",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint256",
+						"name": "intValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "stringValue",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addressValue",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "boolValue",
+						"type": "bool"
+					}
+				],
+				"name": "addStruct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "myStructMapping",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "intValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "stringValue",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addressValue",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "boolValue",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					}
+				],
+				"name": "removeStruct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "Storage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xc32484e2377603b4a6c5d666c3fa4d1ceb5f2f3c4d2c7a2937155fa1eb5d4294",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48641340b843db64ba823a93a871285587474b876d975db9c3fc38d3d373eac5",
+				"dweb:/ipfs/QmRzpSAFehwrUNPguTw1SppozZMnG2Se7gRFr9aAYijCns"
+			]
+		}
+	},
+	"version": 1
+}
